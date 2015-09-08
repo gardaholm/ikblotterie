@@ -2,18 +2,9 @@ var tour = {
     transporter: {
         sides: ['example/07/0000.jpg', 'example/07/0001.jpg', 'example/07/0002.jpg', 'example/07/0003.jpg', 'example/07/0004.jpg', 'example/07/0005.jpg'],
         autorotate: 0.15,
-        infobox: '<b>Transporter Room</b><br>Where do you want to go?',
+        infobox: '<a href="gewinnspiel.html"><b>IKB Gewinnspiel</b><br>Blindtext ....</a>',
         touch: true,
         gyro: true,
-        hotspots: [
-            { type: 'nav', face: 0, x: 200, y: 500, name:'Snowy Mountain', value: 'snow' },
-            { type: 'nav', face: 3, x: 500, y: 500, name:'Arcade', value: 'arcade' },
-            { type: 'nav', face: 2, x: 800, y: 500, name:'Archives', value: 'archives' },
-            { type: 'nav', face: 0, x: 800, y: 500, name:'Concert Hall', value: 'hall' },
-            { type: 'nav', face: 1, x: 500, y: 500, name:'Japanese Hut', value: 'hut' },
-            { type: 'nav', face: 2, x: 200, y: 500, name:'Abandoned House', value: 'ruins' },
-            { type: 'info', face: 3, x: 20, y: 500, name:'What is this place?', value: 'While these might look like regular elevators, they magically transport you to far away places.<br>Feel free to explore.<img src="http://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Transporter2.jpg/250px-Transporter2.jpg"><p>If you get lost, simply refresh the page</p>' },
-        ]
     },
     snow: {
         infobox: '<b>Snowy Mountain</b>',

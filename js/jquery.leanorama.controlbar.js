@@ -24,7 +24,6 @@ $.fn.leanorama.extensions.push(function start() {
                         .css('display', 'none')
                         .css('margin-left', '.5em'),
             hide:       div({class: 'leanorama-controlbar-button actionable'}).html('h'),  // Hide bar
-            delim:      div({class: 'leanorama-controlbar-button'}).html('|'),  // Buttons delimiter
             zoomin:     div({class: 'leanorama-controlbar-button actionable'}).html('+'),  // Zoom in
             zoomout:    div({class: 'leanorama-controlbar-button actionable'}).html('-'),  // Zoom out
             play:       div({class: 'leanorama-controlbar-button actionable'}).html('p'),  // Start autorotate
