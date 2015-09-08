@@ -2,7 +2,7 @@ var tour = {
     transporter: {
         sides: ['example/07/0000.jpg', 'example/07/0001.jpg', 'example/07/0002.jpg', 'example/07/0003.jpg', 'example/07/0004.jpg', 'example/07/0005.jpg'],
         autorotate: 0.15,
-        infobox: '<a href="gewinnspiel.html"><b>IKB Gewinnspiel</b><br>Blindtext ....</a>',
+        infobox: '<b>IKB Gewinnspiel</b><br>Teilnehmen',
         touch: true,
         gyro: true,
     },
